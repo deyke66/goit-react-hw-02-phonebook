@@ -3,7 +3,6 @@ import style from './Contacts.module.css'
 
 export const Contacts = ({ contacts, filter, onClick }) => {
   
-  console.log(contacts);
   return (
     <ul className={style.contacts_list}>
       {contacts
