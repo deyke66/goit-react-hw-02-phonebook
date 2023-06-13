@@ -50,12 +50,10 @@ export class App extends Component {
   }
 
   render() {
-    // console.log(this.state);
 
     return (
       <div
         style={{
-          // height: '100vh',
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'center',
